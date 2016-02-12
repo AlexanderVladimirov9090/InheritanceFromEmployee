@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7aada5-7a0a-4620-ab23-5fd19f27441a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Employee.iws" />
@@ -46,6 +45,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Alexander Vladimirov" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -620,12 +624,19 @@
       <workItem from="1455267679595" duration="1350000" />
       <workItem from="1455302262053" duration="1238000" />
       <workItem from="1455303536656" duration="83000" />
-      <workItem from="1455303840336" duration="864000" />
+      <workItem from="1455303840336" duration="901000" />
     </task>
+    <task id="LOCAL-00001" summary="OK">
+      <created>1455305587446</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1455305587447</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8408000" />
+    <option name="totallyTimeSpent" value="8445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1284" height="991" extended-state="0" />
@@ -668,7 +679,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="OK" />
+    <option name="LAST_COMMIT_MESSAGE" value="OK" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
