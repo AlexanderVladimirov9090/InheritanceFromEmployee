@@ -1,12 +1,14 @@
 /**
- * Created by putkanka on 11-Feb-16.
+ * @author Alexander Vladimirov
+ *         <alexandervladimirov1902@gmail.com>
+ *         Commission Employee derived From Employee class.
  */
 public class CommissionEmployee extends Employee {
     private double grossSale;
     private double commissionRate;
 
-    public CommissionEmployee(String first, String last, String ssn, double sales, double rate) {
-        super(first, last, ssn);
+    public CommissionEmployee(String firstName, String lastName, String ssn, double sales, double rate) {
+        super(firstName, lastName, ssn);
         this.grossSale = sales;
         this.commissionRate = rate;
     }

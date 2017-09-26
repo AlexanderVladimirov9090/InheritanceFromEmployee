@@ -1,5 +1,7 @@
 /**
- * Created by putkanka on 11-Feb-16.
+ * @author Alexander Vladimirov
+ *         <alexandervladimirov1902@gmail.com>
+ *             Salaried Employee derived From Employee class.
  */
 public class SalariedEmployee extends Employee {
     private double weeklySalary;

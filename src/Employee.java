@@ -1,19 +1,21 @@
 /**
- * Created by putkanka on 11-Feb-16.
+ * @author Alexander Vladimirov
+ *         <alexandervladimirov1902@gmail.com>
+ *         Base class of Inheritance.
  */
 public abstract class Employee {
-    private String firtsName;
-    private String lastName;
-    private String socialSecurityNumber;
+    private final String firstName;
+    private final String lastName;
+    private final String socialSecurityNumber;
 
-    public Employee(String first, String last, String ssn) {
-        this.firtsName = first;
-        this.lastName = last;
+    public Employee(String firstName, String lastName, String ssn) {
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.socialSecurityNumber = ssn;
     }
 
     public String firstName() {
-        return firtsName;
+        return firstName;
     }
 
     public String lastName() {

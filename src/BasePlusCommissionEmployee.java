@@ -1,5 +1,7 @@
 /**
- * Created by putkanka on 11-Feb-16.
+ * @author Alexander Vladimirov
+ *         <alexandervladimirov1902@gmail.com>
+ *         Commission Employee derived From Employee class.
  */
 public class BasePlusCommissionEmployee extends CommissionEmployee {
     private double baseSalary;
@@ -9,10 +11,17 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
         this.baseSalary = salary;
     }
 
+    /**
+     * Sets base salary.
+     *
+     * @param salary given salary
+     * @throws IllegalArgumentException when salary is not given properly.
+     */
+
     public void setBaseSalary(double salary) {
-        if (salary >= 0.0)
+        if (salary >= 0.0) {
             baseSalary = salary;
-        else
+        } else
             throw new IllegalArgumentException(
                     "Base salary must be >= 0.0");
     }

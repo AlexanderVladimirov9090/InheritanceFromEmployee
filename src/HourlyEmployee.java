@@ -1,12 +1,14 @@
 /**
- * Created by putkanka on 11-Feb-16.
+ * @author Alexander Vladimirov
+ *         <alexandervladimirov1902@gmail.com>
+ *         Hourly Employee derived From Employee class.
  */
 public class HourlyEmployee extends Employee {
     private double wage;
     private double hours;
 
-    public HourlyEmployee(String first, String last, String ssn, double wage, double hours) {
-        super(first, last, ssn);
+    public HourlyEmployee(String firstName, String lastName, String ssn, double wage, double hours) {
+        super(firstName, lastName, ssn);
         this.wage = wage;
         this.hours = hours;
     }
